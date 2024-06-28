@@ -5,7 +5,7 @@
         Console.WriteLine("Enter Number");
         int number = Convert.ToInt32(Console.ReadLine());
 
-        if (number != null)
+        if (number is not null)
         {
             if (number == 1)
             {
